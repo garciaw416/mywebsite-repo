@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+/******************* bar-top ******************/
+
+.logo {
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+
+.logo h2 {
+  padding-left: 0.5em;
+}
+
+.logo div {
+  padding: 1em 0 1em 1em;
+}
+
+.logo div:first-child {
+  padding-bottom: 0;
+}
+
+.title1 h1 {
+  font-size: 3em ;
+}
+
+.title2 h2 {
+  font-size: 1.2em;
+}
+
+.menu-right {
+  padding: 0;
+  text-align: center;
+  background-color: green;
+  overflow: hidden;
+}
+
+.mobile_menu p {
+  color: white;
+  margin: 1em 0;
+}
+
+.menu {
+  height: 0;
+  overflow: hidden;
+}
+
+.mobile_menu:hover .menu {
+  height: 9em;
+  transition: all 0.5s;
+  transition-timing-function: linear;
+
+}
+
+.menu li {
+  width: 100%;
+  display: block;
+  background-color: blue;
+  border-right: 1px white solid;
+  padding: 1em;
+}
+
+.menu li:hover {
+  background-color: green;
+}
+
+.menu li:last-child {
+  border-right: none;
+  }
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  }
+
+/******************* main ******************/
+
+.main {
+  /*margin-top: 10.2em;*/
+  background-color: grey;
+}
+
+.gallery {
+  display: none;
+}
+
+.profile_pic {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 450px;
+}
+
+.main .header {
+  padding: 1em;
+  text-align: center;
+}
+
+.article {
+  max-width: 30em;
+  margin: auto;
+}
+.article .title2 {
+  padding: 0 1em 0 1em;
+
+}
+
+.article .paragraph {
+  padding: 1em 1em 0 1em;
+
+}
+
+.article .paragraph:last-child {
+  padding-bottom: 1em;
+}
+
+.social_media {
+  padding-left: 1em;
+  padding-right: 1em;
+  overflow: hidden;
+}
+
+.social_media h2 {
+  font-size: 1.2em;
+  padding-bottom: 1em;
+}
+
+.social_media a {
+  padding-right: 1em;
+  float: left;
+}
+
+/******************* footer ******************/
+
+footer {
+  padding: 1em 1em;
+  background-color: black;
+  color: white;
+}
+
+.footer-text {
+  text-align: left;
+  float: left;
+  overflow: hidden;
+}
+
+.back-to-top {
+  text-align: right;
+  overflow: hidden;
+}
+
+.back-to-top a {
+  color: white;
+  text-decoration: none;
+}
