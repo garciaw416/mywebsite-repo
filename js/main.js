@@ -1,5 +1,4 @@
-
-$('gallery').click(function() {
-  $('.gallery').addClass('.popout').fadeIn(10000);
-}
-)
+//$('.gallery').click(function() {
+//  $('.gallery').addClass('popout').fadeIn(10000);
+//}
+//)
