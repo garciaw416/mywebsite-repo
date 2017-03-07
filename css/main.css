@@ -1,92 +1,112 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: black;
+    background-color: white;
 }
+
 
 /******************* bar-top ******************/
 
 .logo {
-  background-color: black;
-  color: white;
-  text-align: left;
+    background-color: black;
+    color: white;
+    text-align: left;
 }
 
 .logo h2 {
-  padding-left: 0.5em;
+    padding-left: 0.5em;
 }
 
 .logo div {
-  padding: 1em 0 1em 1em;
+    padding: 1em 0 1em 1em;
 }
 
 .logo div:first-child {
-  padding-bottom: 0;
+    padding-bottom: 0;
 }
 
 .title1 h1 {
-  font-size: 3em ;
+    font-size: 3em;
 }
 
 .title2 h2 {
-  font-size: 1.2em;
+    font-size: 1.2em;
 }
 
 .menu-right {
-  padding: 0;
-  text-align: center;
-  background-color: green;
-  overflow: hidden;
+    padding: 0;
+    text-align: center;
+    background-color: #00BFFF;
+    overflow: hidden;
 }
 
 .mobile_menu p {
-  color: white;
-  margin: 1em 0;
+    color: white;
+    margin: 1em 0;
 }
 
 .menu {
-  height: 0;
-  overflow: hidden;
+    height: 0;
+    overflow: hidden;
 }
 
 .mobile_menu:hover .menu {
-  height: 9em;
-  transition: all 0.5s;
-  transition-timing-function: linear;
-
+    height: 9.53em;
+    transition: all 0.5s;
+    transition-timing-function: linear;
 }
 
 .menu li {
-  width: 100%;
-  display: block;
-  background-color: blue;
-  border-right: 1px white solid;
-  padding: 1em;
+    width: 100%;
+    display: block;
+    text-align: left;
+    background-color: #00BFFF;
+    border-top: 2px white solid;
+    padding: 1em;
 }
 
 .menu li:hover {
-  background-color: green;
+    background-color: #0000FF;
 }
 
 .menu li:last-child {
-  border-right: none;
-  }
+    border-right: none;
+    border-bottom: 2px white solid;
+}
 
 .menu a {
-  color: white;
-  text-decoration: none;
-  }
+    color: white;
+    text-decoration: none;
+}
+
+.owl-carousel .owl-nav [class*=owl-] {
+    background: #00BFFF;
+    color: white;
+    font-size: 1em;
+    width: 3.125em;
+    height: 3.125em;
+    line-height: 2.5em;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.owl-carousel .owl-nav [class*=owl-]:hover {
+    background: #0000FF;
+    color: white;
+}
+
 
 /******************* main ******************/
 
 .main {
-  /*margin-top: 10.2em;*/
-  background-color: grey;
+    /*margin-top: 10.2em;*/
+    background-color: #B0E0E6;
 }
 
-.gallery {
+
+/*.gallery {
   display: none;
 }
 
@@ -95,67 +115,66 @@ body {
   display: block;
   width: 80%;
   max-width: 450px;
-}
+}*/
 
 .main .header {
-  padding: 1em;
-  text-align: center;
+    padding: 1em;
 }
 
 .article {
-  max-width: 30em;
-  margin: auto;
+    max-width: 30em;
+    margin: auto;
 }
-.article .title2 {
-  padding: 0 1em 0 1em;
 
+.article .title2 {
+    padding: 0 1em 0 1em;
 }
 
 .article .paragraph {
-  padding: 1em 1em 0 1em;
-
+    padding: 1em 1em 0 1em;
 }
 
 .article .paragraph:last-child {
-  padding-bottom: 1em;
+    padding-bottom: 1em;
 }
 
 .social_media {
-  padding-left: 1em;
-  padding-right: 1em;
-  overflow: hidden;
+    padding-left: 1em;
+    padding-right: 1em;
+    overflow: hidden;
 }
 
 .social_media h2 {
-  font-size: 1.2em;
-  padding-bottom: 1em;
+    font-size: 1.2em;
+    padding-bottom: 1em;
 }
 
 .social_media a {
-  padding-right: 1em;
-  float: left;
+    padding-right: 1em;
+    float: left;
 }
+
 
 /******************* footer ******************/
 
 footer {
-  padding: 1em 1em;
-  background-color: black;
-  color: white;
+    padding: 1em 1em;
+    background-color: black;
+    color: white;
 }
 
 .footer-text {
-  text-align: left;
-  float: left;
-  overflow: hidden;
+    text-align: left;
+    float: left;
+    overflow: hidden;
 }
 
 .back-to-top {
-  text-align: right;
-  overflow: hidden;
+    text-align: right;
+    overflow: hidden;
 }
 
 .back-to-top a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }

@@ -1,140 +1,110 @@
-/* 40em == 640px */
-@media screen and (min-width: 40em) {
-  body {
-    font-size: 1em;
-  }
+                              /* 40em == 640px */
 
-  /******************* bar-top ******************/
-
-  .mobile_menu p {
-  display: none;
+                          @media screen and (min-width: 40em) {
+                              body {
+                                  font-size: 1em;
+                              }
+                              /******************* bar-top ******************/
+                              .mobile_menu p {
+                                  display: none;
+                              }
+                              .menu {
+                                  height: 3em;
+                                  overflow: hidden;
+                              }
+                              .mobile_menu:hover .menu {
+                                  height: 3em;
+                              }
+                              .menu li {
+                                  float: left;
+                                  width: 33.3333%;
+                                  display: inline-block;
+                                  overflow: hidden;
+                                  border-right: 2px white solid;
+                                  border-top: none;
+                              }
+                              .menu li:hover {
+                                  background-color: #0000FF;
+                              }
+                              .menu li:last-child {
+                                  border-right: none;
+                              }
+                              .article {
+                                  max-width: 100%;
+                                  overflow: hidden;
+                              }
+                              .content {
+                                  max-width: 30em;
+                                  float: left;
+                                  display: inline-block;
+                              }
+                              .social_media {
+                                  display: block;
+                                  text-align: center;
+                              }
+                              .social_media a {
+                                  float: none;
+                                  display: block;
+                                  margin: auto;
+                                  padding-bottom: 1em;
+                              }
+                              /******************* main ******************/
+                              /*  .profile_pic {
+display: none;
+}*/
+                              .header {
+                                  overflow: hidden;
+                              }
+                              /*.gallery:nth-child(1n) {
+display: inline-block;
 }
 
-  .menu {
-  height: 3em;
-  overflow: hidden;
+.gallery:nth-child(2) {
+float: left;
+max-width: 450px;
+width: 50%;
+display: inline-block;
 }
 
-  .mobile_menu:hover .menu {
-  height: 3em;
+.gallery:nth-child(3) {
+float: left;
+max-width: 450px;
+width: 50%;
+display: inline-block;
+}*/
+                              /* 48em == 768px */
+                              @media screen and (min-width: 48em) {
+                                  body {
+                                      font-size: 1.2em;
+                                  }
+                                  /******************* main ******************/
+                              }
+                              /* 62em == 992px */
+                              @media screen and (min-width: 62em) {
+                                  /******************* main ******************/
+                                  /*.gallery:nth-child(1n) {
+float: left;
+max-width: 450px;
+width: 25%;
+display: inline-block;
 }
 
-  .menu li {
-    float: left;
-    width: 33.3333%;
-    display: inline-block;
-    overflow: hidden;
-  }
-
-  .article {
-    max-width: 100%;
-    overflow: hidden;
-  }
-
-  .content {
-    max-width: 30em;
-    float: left;
-    display: inline-block;
-  }
-
-  .social_media {
-    display: block;
-    text-align: center;
-  }
-
-  .social_media a {
-    float: none;
-    display: block;
-    margin: auto;
-    padding-bottom: 1em;
-  }
-
-  /******************* main ******************/
-
-  .main {
-    background-color: lightblue;
-  }
-
-  .profile_pic {
-    display: none;
-  }
-
-  .header {
-    overflow: hidden;
-  }
-
-  .gallery:nth-child(2) {
-    float: left;
-    max-width: 450px;
-    width: 50%;
-    display: inline-block;
-  }
-
-  .gallery:nth-child(3) {
-    float: left;
-    max-width: 450px;
-    width: 50%;
-    display: inline-block;
-  }
-
-}
-
-/* 48em == 768px */
-@media screen and (min-width: 48em) {
-  body {
-    font-size: 1.2em;
-  }
-
-  /******************* main ******************/
-
-  .main {
-    background-color: red;
-  }
-}
-
-/* 62em == 992px */
-@media screen and (min-width: 62em) {
-  body {
-    font-size: 1.5em;
-  }
-
-  /******************* main ******************/
-
-  .main {
-    background-color: orange;
-  }
-
-  .gallery:nth-child(1n) {
-    float: left;
-    max-width: 450px;
-    width: 25%;
-    display: inline-block;
-  }
-
-  .popout {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    top: 0;
-    left: 0;
-    opacity: 1;
-    background-color: rgba(0, 0, 0, 0.45);
-    text-align: center;
-  }
-
-}
-
-  /* 75em == 1200px */
-@media screen and (min-width: 75em) {
-
-  .social_media a {
-    display: inline-block;
-  }
-
-  /******************* main ******************/
-
-  .main {
-    background-color: yellow;
-  }
-}
+.popout {
+position: fixed;
+width: 100%;
+height: 100%;
+z-index: 2;
+top: 0;
+left: 0;
+opacity: 1;
+background-color: rgba(0, 0, 0, 0.45);
+text-align: center;
+}*/
+                              }
+                              /* 75em == 1200px */
+                              @media screen and (min-width: 75em) {
+                                  .social_media a {
+                                      display: inline-block;
+                                  }
+                                  /******************* main ******************/
+                              }
