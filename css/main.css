@@ -52,7 +52,7 @@ body {
     overflow: hidden;
 }
 
-.mobile_menu:hover .menu {
+.mobile_menu:active .menu {
     height: 9.53em;
     transition: all 0.5s;
     transition-timing-function: linear;
@@ -67,7 +67,7 @@ body {
     padding: 1em;
 }
 
-.menu li:hover {
+.menu li:active {
     background-color: #0000FF;
 }
 
